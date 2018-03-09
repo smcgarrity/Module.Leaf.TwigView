@@ -1,5 +1,5 @@
 {
-  "name": "smcgarrity/rhubarb-module-leaf-twig-view",
+  "name": "smcgarrity/rhubarb-module-twigview",
   "description": "Twig integrated View for Rhubarb",
   "minimum-stability": "stable",
   "keywords": [
@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
-      "Rhubarb\\Leaf\\TwigView\\": "src/"
+      "Rhubarb\\TwigView\\": "src/"
     }
   },
   "require": {
@@ -25,5 +25,8 @@
   },
   "config": {
     "bin-dir": "bin/"
+  },
+  "require-dev": {
+    "rhubarbphp/custard": "^1.0.8"
   }
 }
