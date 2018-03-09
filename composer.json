@@ -1,5 +1,5 @@
 {
-  "name": "smcgarrity/module-leaf-twig-view",
+  "name": "smcgarrity/rhubarb-module-leaf-twig-view",
   "description": "Twig integrated View for Rhubarb",
   "minimum-stability": "stable",
   "keywords": [
