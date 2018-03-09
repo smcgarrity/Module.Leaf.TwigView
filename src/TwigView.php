@@ -1,6 +1,6 @@
 <?php
 
-namespace StockIntel\Aaa;
+namespace Rhubarb\Leaf\TwigView;
 
 use Rhubarb\Crown\Application;
 use Rhubarb\Leaf\Views\View;
