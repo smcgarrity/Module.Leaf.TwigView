@@ -1,0 +1,29 @@
+{
+  "name": "smcgarrity/module-leaf-twig-view",
+  "description": "Twig integrated View for Rhubarb",
+  "minimum-stability": "stable",
+  "keywords": [
+    "mvp",
+    "presenter",
+    "leaf",
+    "rhubarb",
+    "php",
+    "framework",
+    "twig"
+  ],
+  "homepage": "https://github.com/smcgarrity/Module.Leaf.TwigView",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\Leaf\\TwigView\\": "src/"
+    }
+  },
+  "require": {
+    "rhubarbphp/rhubarb": "^1.5.9",
+    "rhubarbphp/module-leaf": "^1.0.0",
+    "twig/twig": "^2.0"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
