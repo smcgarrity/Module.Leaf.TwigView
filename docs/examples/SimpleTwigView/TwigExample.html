@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ Title }}</title>
+</head>
+<body class="g-body">
+<div class="g-main u-center">
+    <h1>{{Title}}</h1>
+
+    {{ if Gender == 'male'}}
+        <p>Hello Mr {{ Surname }}</p>
+    {{ elseif Gender == 'female'}}
+        <p>Hello Ms {{ Surname }}</p>
+    {{ endif}}
+    <div>
+        <p>Please enter you password:</p>
+        <div>
+            {{ Password }}
+            <div>
+                {{ ForgotPassword }}
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
