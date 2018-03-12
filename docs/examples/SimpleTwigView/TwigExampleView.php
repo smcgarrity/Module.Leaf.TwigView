@@ -22,7 +22,7 @@ class TwigExampleView extends TwigView
 
     function getTwigFileLocation(): string
     {
-        return './TwigExample.twig';
+        return __DIR__ . '/TwigExample.twig';
     }
 
     protected function getTwigVariables(): array

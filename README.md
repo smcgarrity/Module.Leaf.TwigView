@@ -19,7 +19,7 @@ You will be have to implement two methods:
 ```php
 function getTwigFileLocation(): string
 {
-    return '../Directory/File.twig';
+    return __DIR__ . '/File.twig';
 }
 ```
 
